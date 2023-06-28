@@ -9,7 +9,7 @@ public class BeerSong {
             System.out.println(beerN + " " + word + " of beer.");
             System.out.println("Take one down");
             System.out.println("Pass it around");
-            beerN -= 1;
+            beerN = beerN - 1;
             if (beerN == 1){
                 word = "bottle";
             }
