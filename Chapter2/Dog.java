@@ -1,6 +1,6 @@
-package Chapter1;
+package Chapter2;
 
-public class Dog {
+class Dog {
     int size;
     String breed;
     String name;
