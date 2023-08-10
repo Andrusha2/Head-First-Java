@@ -10,7 +10,7 @@ public class SimpleDotComTestDrive {
         SimpleDotCom theDotCome = new SimpleDotCom();
         int randomNum = (int) (Math.random() * 5);
 
-        ArrayList<String> locations = new ArrayList<String>();
+        ArrayList<String> locations = new ArrayList<>();
         locations.add(String.valueOf(randomNum));
         locations.add(String.valueOf(randomNum + 1));
         locations.add(String.valueOf(randomNum + 2));
